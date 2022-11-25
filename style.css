@@ -1,0 +1,78 @@
+body{
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+}
+
+.riquadro{
+    position: absolute;
+    width: 60%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, .5);
+    padding: 30px;
+    border-radius: 40px;
+    margin-top: 8%;
+}
+
+
+
+#logo{
+    height: 100px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#titoloPrincipale{
+    color: #00dd00;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav{
+    padding: 10px;
+    background-color: #00dd00;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 40px;
+}
+
+button{
+    margin: 0 10px;
+}
+
+.proprietario{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.locationEstatoCarica{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#StatoCarica1{
+    background-color: rgb(217, 178, 82);
+    height: 30px;
+    width: 40%;
+    border-radius: 5px;
+}
+
+#StatoCarica2{
+    background-color: #00dd00;
+    height: 30px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+#StatoCarica3{
+    background-color: darkred;
+    height: 30px;
+    width: 15%;
+    border-radius: 5px;
+}
